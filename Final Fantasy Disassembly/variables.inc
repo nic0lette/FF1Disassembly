@@ -1,3 +1,4 @@
+.feature force_range
 
 story_dropinput = $07
 inroom          = $0D ; bit 7 is the actual inroom flag.  $x1=entering room, $x2=entering locked room (different sprite vis), $x5=exiting room, $x6=exiting locked room

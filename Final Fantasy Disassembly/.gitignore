@@ -1,1 +1,4 @@
 *.nes
+
+bank_*.bin
+*.o

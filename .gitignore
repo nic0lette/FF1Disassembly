@@ -1,1 +1,6 @@
 Patches/
+
+# Generated files
+*.nes
+bank_*.bin
+*.o

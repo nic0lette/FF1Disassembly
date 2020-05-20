@@ -1,8 +1,5 @@
-Patches/
-
 # Generated files
 FinalFantasy.*
-bank_*.bin
 *.o
 
 # Debug symbols, etc...

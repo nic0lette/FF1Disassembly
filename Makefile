@@ -23,6 +23,7 @@ _OBJ = bank_00.o \
 OBJ = $(patsubst %,$(ODIR)/%,$(_OBJ))
 
 $(ODIR)/%.o: %.asm
+	@mkdir -p $(ODIR)
 	$(CA65) -g -o $@ $<
 
 FinalFantasy.nes: $(OBJ)
@@ -31,4 +32,4 @@ FinalFantasy.nes: $(OBJ)
 .PHONY: clean
 
 clean:
-	rm $(ODIR)/*
+	rm -f $(ODIR)/* FinalFantasy.nes FinalFantasy.dbg mapfile.txt labels.txt 

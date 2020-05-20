@@ -1,6 +1,10 @@
 Patches/
 
 # Generated files
-*.nes
+FinalFantasy.*
 bank_*.bin
 *.o
+
+# Debug symbols, etc...
+labels.txt
+mapfile.txt
